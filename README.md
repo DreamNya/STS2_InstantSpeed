@@ -7,6 +7,7 @@ Nexusmods: <https://www.nexusmods.com/slaythespire2/mods/59>
 - 加速战斗场景
 - 跳过卡牌动画
 - 移除等待限制
+- 极致轻量化，即开即用
 
 ## 安装
 
@@ -27,6 +28,7 @@ Nexusmods: <https://www.nexusmods.com/slaythespire2/mods/59>
 - Accelerated Combat
 - Animation Skipping
 - Zero Wait Times
+- Ultra-lightweight, ready to use
 
 ## Installation
 

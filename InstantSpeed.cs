@@ -1,4 +1,5 @@
 using System.Threading;
+using System.Threading.Tasks;
 using HarmonyLib;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Modding;
@@ -45,15 +46,15 @@ public static class Patch_Cmd_Wait
 public static class Patch_NCardFlyVfx
 {
     [HarmonyPrefix]
-    public static void Prefix(ref float ___speed, ref float ___accel)
+    public static void Prefix(ref float ____speed, ref float ____accel)
     {
         if (NCombatRoom.Instance == null)
         {
             return;
         }
 
-        ___speed *= 2f;
-        ___accel *= 2f;
+        ____speed *= 2f;
+        ____accel *= 2f;
     }
 }
 
@@ -61,15 +62,15 @@ public static class Patch_NCardFlyVfx
 public static class Patch_NCardFlyShuffleVfx
 {
     [HarmonyPrefix]
-    public static void Prefix(ref float ___speed, ref float ___accel)
+    public static void Prefix(ref float ____speed, ref float ____accel)
     {
         if (NCombatRoom.Instance == null)
         {
             return;
         }
 
-        ___speed *= 2f;
-        ___accel *= 2f;
+        ____speed *= 2f;
+        ____accel *= 2f;
     }
 }
 
