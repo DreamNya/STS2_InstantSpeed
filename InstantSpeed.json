@@ -1,0 +1,11 @@
+{
+    "id": "InstantSpeed",
+    "name": "InstantSpeed",
+    "author": "DreamNya",
+    "description": "Faster Combat, Skip Animations, Zero Wait.",
+    "version": "1.2",
+    "has_pck": false,
+    "has_dll": true,
+    "dependencies": [],
+    "affects_gameplay": true
+}
